@@ -19,7 +19,7 @@ export const Button = styled.button<{
   cursor: pointer;
   transition: background-color 0.15s;
 
-  &:active, &:focus {
+  &:active {
     background-color: ${ ({ _bgActive }) => _bgActive }
   }
 `
